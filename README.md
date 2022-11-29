@@ -5,7 +5,7 @@
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
 <img src = "https://automationpanda.files.wordpress.com/2017/10/cucumber.png?w=620" height = "100">
-<img src = "https://png2.cleanpng.com/sh/88232befaf6b47eac6bfb4ecd1614348/L0KzQYq3U8IxN5l0jJH0aYP2gLBuTgNmdJZzged2LYTog8W0ggV1d55mjNt4bj32f7f7lBFzbV55feV9aX7qPbT2jgB2fJZ3RadsOUK5SLK7hsA2bGI8RqM5MEO0QImCUcU2O2EAUKs6Nkm7RIa1kP5o/kisspng-selenium-test-automation-software-testing-computer-5c9268a4f05d17.1003108915530989169845.png">
+<img src = "https://e7.pngegg.com/pngimages/329/699/png-clipart-selenium-integrated-development-environment-test-automation-software-testing-source-code-automation-testing-logo-web-application.png">
 
 ## Run sample build
 
