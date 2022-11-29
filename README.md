@@ -46,6 +46,10 @@ npx setup --username userName --key accessKey
   "browserstack-test": "browserstack-node-sdk cucumber-js [args]"
 },
 ```
+## Pruebas Locales
+
+Para realizar las pruebas locales debemos iniciar un [servidor de selenium](https://www.selenium.dev/downloads/)
+ 
 
 ## Notes
 
