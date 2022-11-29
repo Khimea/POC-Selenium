@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test:remoto": "browserstack-node-sdk cucumber-js features/*.feature",
-    "test:cucumber": "cucumber-js features/single.feature"
+    "test:cucumber": "cucumber-js features/*.feature"
 
   },
   "devDependencies": {
