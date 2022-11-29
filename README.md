@@ -1,4 +1,4 @@
-# cucumber-js-browserstack
+# POC Selenium + Cucumber + BrowserStack SDK
 
 [Cucumber-JS](https://github.com/cucumber/cucumber-js) Integration with BrowserStack for E2E functional testing of UI using Selenium and [browserstack-node-sdk](https://www.npmjs.com/package/browserstack-node-sdk).
 
