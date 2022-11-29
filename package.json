@@ -2,7 +2,7 @@
   "name": "cucumber-js-browserstack",
   "version": "0.1.0",
   "readme": "Cucumber-JS integracion con [BrowserStack](https://www.browserstack.com)",
-  "description": "Ejemplo de Selenium - Cucumber-JS and BrowserStack Automate",
+  "description": "Ejemplo de Selenium - Cucumber-JS y BrowserStack Automate",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Khimea/POC-Selenium.git"
