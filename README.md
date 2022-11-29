@@ -4,7 +4,7 @@
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
-<img src = "https://cucumber.io/images/cucumber-logo.svg" height = "100">
+<img src = "https://automationpanda.files.wordpress.com/2017/10/cucumber.png?w=620" height = "100">
 
 ## Run sample build
 
