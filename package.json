@@ -10,8 +10,14 @@
   "scripts": {
     "test:remoto": "browserstack-node-sdk cucumber-js features/*.feature",
     "test:cucumber": "cucumber-js features/*.feature"
-
   },
+    "keywords": [
+    "selenium",
+    "cucumber",
+     "browserstack"
+  ],
+  "author": "Jerez Leonardo",
+  "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.2",
     "assert": "^2.0.0",
