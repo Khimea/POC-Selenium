@@ -5,7 +5,7 @@
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
 <img src = "https://automationpanda.files.wordpress.com/2017/10/cucumber.png?w=620" height = "100">
-<img src = "https://en.wikiversity.org/wiki/Selenium_%28software%29#/media/File:Selenium_Logo.png" height = "100">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" height = "100">
 
 ## Run sample build
 
