@@ -4,8 +4,7 @@
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
-<img src = "https://media-exp1.licdn.com/dms/image/C5112AQHJpZqS4Bxncw/article-cover_image-shrink_600_2000/0/1520185869483?e=1675296000&v=beta&t=1mp98Ivf-d4Qda4GbR4JvDiTXE9KAo91ZfVqku4w2lo" height = "100">
-<img src = "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" height = "100">
+<img src = "https://media-exp1.licdn.com/dms/image/C5112AQHJpZqS4Bxncw/article-cover_image-shrink_600_2000/0/1520185869483?e=1675296000&v=beta&t=1mp98Ivf-d4Qda4GbR4JvDiTXE9KAo91ZfVqku4w2lo" height = "200">
 
 ## Run sample build
 
