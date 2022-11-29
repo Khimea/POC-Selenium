@@ -49,7 +49,12 @@ npx setup --username userName --key accessKey
 ## Pruebas Locales
 
 Para realizar las pruebas locales debemos iniciar un [servidor de selenium](https://www.selenium.dev/downloads/)
- 
+El proyecto ya viene configurado para que utilice este servidor de manera [LOCAL](hooks.js) y en chrome.
+Para iniciar nuestro servidor debemos ejecutar la siguiente linea de comando
+```
+java -jar selenium-server-standalone-{VERSION}.jar
+```
+ Mas [INFO](https://www.selenium.dev/documentation/legacy/selenium_2/remote_server/)
 
 ## Notes
 
