@@ -5,7 +5,7 @@
   "description": "Ejemplo de Selenium - Cucumber-JS and BrowserStack Automate",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/browserstack/cucumber-js-browserstack.git"
+    "url": "git+https://github.com/Khimea/POC-Selenium.git"
   },
   "scripts": {
     "test:remoto": "browserstack-node-sdk cucumber-js features/*.feature",
