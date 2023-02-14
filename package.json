@@ -8,7 +8,7 @@
     "url": "git+https://github.com/Khimea/POC-Selenium.git"
   },
   "scripts": {
-    "test:remoto": "browserstack-node-sdk cucumber-js features/*.feature",
+    "test": "browserstack-node-sdk cucumber-js features/*.feature",
     "test:cucumber": "cucumber-js features/*.feature"
   },
     "keywords": [
