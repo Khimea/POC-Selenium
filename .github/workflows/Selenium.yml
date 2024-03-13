@@ -12,6 +12,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install Chrome 114
+      run: |
+        wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.0_amd64.deb
+        sudo dpkg -i google-chrome-stable_114.0.0_amd64.deb
+        sudo apt-get install -f
+
+    - name: Install Chrome WebDriver 114
+      run: |
+        wget https://chromedriver.storage.googleapis.com/114.0.0/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/local/bin/chromedriver
+        sudo chmod +x /usr/local/bin/chromedriver
+        
     - name: Checkout del código
       uses: actions/checkout@v2
 
@@ -23,19 +36,6 @@ jobs:
 
     - name: Instalar dependencias
       run: npm install
-
-    - name: Install Chrome
-      run: |
-        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-        sudo dpkg -i google-chrome-stable_current_amd64.deb
-        sudo apt-get install -f
-
-    - name: Install Chrome WebDriver
-      run: |
-          CHROMEDRIVER_VERSION=$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
-          wget -qP /tmp/ "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
-          sudo unzip -o /tmp/chromedriver_linux64.zip -d /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver
 
     - name: Run selenium tests
       run: npm run test
