@@ -20,12 +20,12 @@ jobs:
 
       with:
         node-version: '20'
-        
+
     - name: Instalar dependencias
       run: npm install
 
-    - name: Instalar Chrome
-      uses: nanasess/setup-chrome@v1
+    - name: Install Chrome
+      uses: webfactory/chrome-headless@v1
 
     - name: Instalar Chrome WebDriver
       run: |
