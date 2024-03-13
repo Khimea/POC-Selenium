@@ -1,8 +1,4 @@
-node_modules
-local.log
-screenshots
-log/
-browserstack.err
-**/.DS_Store
-.vscode/
+node_modules/
+screenshots/*.png
+package-lock.json
 .env
