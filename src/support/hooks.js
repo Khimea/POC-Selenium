@@ -2,6 +2,8 @@
 const utils = require("./utils");
 const { Builder, Browser, Capabilities } = require("selenium-webdriver");
 const { Before, After } = require("@cucumber/cucumber");
+const chrome = require('selenium-webdriver/chrome');
+
 const options = new chrome.Options();
 options.addArguments('--headless');
 Before(async (scenario) => {
